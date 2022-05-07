@@ -4,19 +4,16 @@
         <script src="Gradient.js" ></script>
     </head>
     <style>
-        body {
-            margin:0;
-            padding:0;
         }
         #gradient-canvas {
-            --gradient-color-1: #6ec3f4;
-            --gradient-color-2: #3a3aff;
-            --gradient-color-3: #ff61ab;
-            --gradient-color-4: #E63946;
+            --gradient-color-1: #fc5e5b;
+            --gradient-color-2: #fcdf67;
+            --gradient-color-3: #fc5e5b;
+            --gradient-color-4: #fcdf67;
         }
     </style>
     <body>
-        <canvas id="gradient-canvas" style="width:100vw;height:100vh"></canvas>
+        <canvas id="gradient-canvas" style="width:100%;height:100%"></canvas>
         <script>
             var gradient = new Gradient()
             gradient.initGradient('#gradient-canvas');
